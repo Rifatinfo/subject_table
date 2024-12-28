@@ -14,9 +14,9 @@ const displayData = (data) => {
         row.innerHTML = `
           <th class="border border-gray-300 px-4 py-2">${item.course_id}</th>
           <td class="border border-gray-300 px-8 py-2">${item.course_name}</td>
-          <td class="border border-gray-300 px-2 py-2">${item.credits}</td>
-          <td class="border border-gray-300 px-2 py-2">${item.mandatory}</td>
-          <td class="border border-gray-300 px-2 py-2"><label class="swap swap-rotate inline-flex items-center cursor-pointer">
+          <td class="border border-gray-300 px-2 py-2 text-center">${item.credits}</td>
+          <td class="border border-gray-300 px-2 py-2 text-center">${item.mandatory}</td>
+          <td class="border border-gray-300 px-2 py-2 text-center"><label class="swap swap-rotate inline-flex items-center cursor-pointer">
             <input type="checkbox" class="hidden peer" />
             <!-- Swap On (Visible when checked) -->
             <div class="swap-on hidden peer-checked:block">
