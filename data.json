@@ -1,0 +1,66 @@
+[
+    {
+      "_id": "1",
+      "course_id": "UCC1101",
+      "course_name": "Bangla Bhasha O Shahitya",
+      "credits": 3.0,
+      "mandatory": "no",
+      "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "2",
+      "course_id": "ESK1111",
+      "course_name": "Health Life Skills",
+      "credits": 0.0,
+      "mandatory": "no",
+     "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "3",
+      "course_id": "CSE1301",
+      "course_name": "Data Structure",
+      "credits": 3.0,
+      "mandatory": "no",
+     "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "4",
+      "course_id": "CSE1302",
+      "course_name": "Data Structure Lab",
+      "credits": 1,
+      "mandatory": "no",
+     "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "5",
+      "course_id": "CSE1203",
+      "course_name": "Descrite Mathmatics",
+      "credits": 3,
+      "mandatory": "no",
+     "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "6",
+      "course_id": "MAT1201",
+      "course_name": "Co-ordinate Geometry and Liner Algebra",
+      "credits": 3,
+      "mandatory": "no",
+      "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    },
+    {
+      "_id": "7",
+      "course_id": "PHY1301",
+      "course_name": "Physics ||",
+      "credits": 3,
+      "mandatory": "no",
+      "taken_right": "https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png",
+      "taken_close": "https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+    }
+  ]
+  
