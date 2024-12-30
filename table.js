@@ -16,27 +16,28 @@ const displayData = (data) => {
           <td class="border border-gray-300 px-8 py-2">${item.course_name}</td>
           <td class="border border-gray-300 px-2 py-2 text-center">${item.credits}</td>
           <td class="border border-gray-300 px-2 py-2 text-center">${item.mandatory}</td>
-          <td class="border border-gray-300 px-2 py-2 text-center"><label class="swap swap-rotate inline-flex items-center cursor-pointer">
+          <td  class="border border-gray-300 px-2 py-2 text-center"><label class="swap swap-rotate inline-flex items-center cursor-pointer">
             <input type="checkbox" class="hidden peer" />
             <!-- Swap On (Visible when checked) -->
             <div class="swap-on hidden peer-checked:block">
-                <img class="w-6 h-6" src="${item.taken_right}" alt="Checked">
+                <img  class="w-6 h-6" src="${item.taken_right}" alt="Checked">
             </div>
             <!-- Swap Off (Visible when not checked) -->
             <div class="swap-off block peer-checked:hidden">
-                <img class="w-5 h-5" src="${item.taken_close}" alt="Unchecked">
+                <img onClick="appendSection('${item.course_name}', '${item.course_id}')" class="w-5 h-5" src="${item.taken_close}" alt="Unchecked">
             </div>
             </label>
             </td>   	
         `;
         tableBody.appendChild(row);
+
       });
   };
   
+  
+  const appendSection = (course_name, course_id) => {
+    
+    console.log(course_name,course_id);
+};
 
-const table = () => {
-   
-}
-
-table();
 dataLoad();
