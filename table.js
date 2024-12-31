@@ -51,7 +51,7 @@ const appendSection = (course_name, course_id) => {
       <td class="border border-gray-300 px-4 py-2">Monday</td>
       <td class="border border-gray-300 px-4 py-2">4:10 PM - 5:30 PM</td>
       <td class="border border-gray-300 px-4 py-2">PA230</td>
-      <td class="border border-gray-300 px-4 py-2"></td>
+      <td class="border border-gray-300 px-4 py-2 text-gray-500 hover:underline font-semibold cursor-pointer">Select</td>
     `;
     container.appendChild(tr);
 
@@ -81,7 +81,7 @@ const displayItemFromLocalStorage = () => {
     for (const course_name in savedCart) {
         const course_id = savedCart[course_name];
         console.log(course_name, course_id);
-        appendSection(course_name, course_id); // Pass arguments correctly
+        appendSection(course_name, course_id); 
     }
 };
 
