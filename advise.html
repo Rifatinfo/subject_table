@@ -34,35 +34,27 @@
     <!-- Schedule for course  -->
 
     <!-- Make sure the script is included at the bottom -->
-    <script src="table.js"></script>
+  
 </body>
 <footer class="flex flex-col max-w-6xl mx-auto">
- <div class="flex justify-center">
+ <div  class="flex justify-center">
   <table class="table-auto border-collapse border border-gray-300 w-full text-center">
     <thead>
       <tr>
-        <th class="border border-gray-300 px-4 py-2">Choose</th>
+        <th  class="border border-gray-300 px-4 py-2">Choose</th>
         <th  class="border border-gray-300 px-4 py-2">Section</th>
-        <th class="border border-gray-300 px-4 py-2">Day</th>
+        <th  class="border border-gray-300 px-4 py-2">Day</th>
         <th  class="border border-gray-300 px-4 py-2">Time</th>
         <th  class="border border-gray-300 px-4 py-2">Room No</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td rowspan="2" class="border border-gray-300 px-4 py-2">✔</td>
-        <td rowspan="2" class="border border-gray-300 px-4 py-2">1</td>
-        <td class="border border-gray-300 px-4 py-2">Sun</td>
-        <td class="border border-gray-300 px-4 py-2">4:10 PM - 5:30 PM</td>
-        <td class="border border-gray-300 px-4 py-2">PA230</td>
-      </tr>
-      <tr>
-        <td  class="border border-gray-300 px-4 py-2">Mon</td>
-        <td class="border border-gray-300 px-4 py-2">4:10 PM - 5:30 PM</td>
-        <td class="border border-gray-300 px-4 py-2">PA230</td>
-      </tr>
+    <tbody id="select-container">
+      
     </tbody>
+    
   </table>
  </div>
 </footer>
+<script src="table.js"></script>
+<script src="select.js"></script>
 </html>

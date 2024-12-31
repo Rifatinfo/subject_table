@@ -1,5 +1,6 @@
 [
     {
+      "_id": "1",
       "subject_name": "Mathematics",
       "course_id": "MATH101",
       "rightImage": "https://example.com/images/right-icon.png",
@@ -8,26 +9,8 @@
       "day": ["Sun", "Tue"],
       "time": ["4:10PM - 5:30PM", "4:10PM - 5:30PM"],
       "room": ["PA210", "PB107"]
-    },
-    {
-      "subject_name": "Physics",
-      "course_id": "PHYS102",
-      "rightImage": "https://example.com/images/right-icon.png",
-      "crossImage": "https://example.com/images/cross-icon.png",
-      "section": "B",
-      "day": ["Mon", "Wed"],
-      "time": ["3:00PM - 4:30PM", "3:00PM - 4:30PM"],
-      "room": ["PB207", "PC301"]
-    },
-    {
-      "subject_name": "Chemistry",
-      "course_id": "CHEM103",
-      "rightImage": "https://example.com/images/right-icon.png",
-      "crossImage": "https://example.com/images/cross-icon.png",
-      "section": "C",
-      "day": ["Thu", "Fri"],
-      "time": ["10:00AM - 11:30AM", "10:00AM - 11:30AM"],
-      "room": ["PA310", "PB205"]
     }
   ]
-  
+
+
+ 
